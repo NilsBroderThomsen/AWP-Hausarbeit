@@ -1,0 +1,18 @@
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Business.Model\bin\Debug\Business.Model.dll
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Business.Model\bin\Debug\Business.Model.pdb
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Business.Model\obj\Debug\Business.Model.csproj.AssemblyReference.cache
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Business.Model\obj\Debug\Business.Model.csproj.CoreCompileInputs.cache
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Business.Model\obj\Debug\Business.Model.dll
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Business.Model\obj\Debug\Business.Model.pdb
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Business.Model\bin\Debug\Business.Model.dll
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Business.Model\bin\Debug\Business.Model.pdb
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Business.Model\obj\Debug\Business.Model.csproj.AssemblyReference.cache
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Business.Model\obj\Debug\Business.Model.csproj.CoreCompileInputs.cache
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Business.Model\obj\Debug\Business.Model.dll
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Business.Model\obj\Debug\Business.Model.pdb
+C:\Users\nilsb\Desktop\ClientApp112\Business.Model\bin\Debug\Business.Model.dll
+C:\Users\nilsb\Desktop\ClientApp112\Business.Model\bin\Debug\Business.Model.pdb
+C:\Users\nilsb\Desktop\ClientApp112\Business.Model\obj\Debug\Business.Model.csproj.AssemblyReference.cache
+C:\Users\nilsb\Desktop\ClientApp112\Business.Model\obj\Debug\Business.Model.csproj.CoreCompileInputs.cache
+C:\Users\nilsb\Desktop\ClientApp112\Business.Model\obj\Debug\Business.Model.dll
+C:\Users\nilsb\Desktop\ClientApp112\Business.Model\obj\Debug\Business.Model.pdb

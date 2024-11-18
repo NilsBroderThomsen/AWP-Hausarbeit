@@ -1,0 +1,39 @@
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Logic.Ui\bin\Debug\Logic.Ui.dll
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Logic.Ui\bin\Debug\Logic.Ui.pdb
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Logic.Ui\obj\Debug\Logic.Ui.csproj.AssemblyReference.cache
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Logic.Ui\obj\Debug\Logic.Ui.csproj.CoreCompileInputs.cache
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Logic.Ui\obj\Debug\Logic.Ui.dll
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Logic.Ui\obj\Debug\Logic.Ui.pdb
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Logic.Ui\bin\Debug\Business.Model.dll
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Logic.Ui\bin\Debug\Business.Model.pdb
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Logic.Ui\obj\Debug\Logic.Ui.csproj.CopyComplete
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Logic.Ui\bin\Debug\Services.MessageBus.dll
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Logic.Ui\bin\Debug\Services.SerializationService.dll
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Logic.Ui\bin\Debug\Services.MessageBus.pdb
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Logic.Ui\bin\Debug\Services.SerializationService.pdb
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Logic.Ui\bin\Debug\Logic.Ui.dll
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Logic.Ui\bin\Debug\Logic.Ui.pdb
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Logic.Ui\bin\Debug\Business.Model.dll
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Logic.Ui\bin\Debug\Services.MessageBus.dll
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Logic.Ui\bin\Debug\Services.SerializationService.dll
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Logic.Ui\bin\Debug\Business.Model.pdb
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Logic.Ui\bin\Debug\Services.MessageBus.pdb
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Logic.Ui\bin\Debug\Services.SerializationService.pdb
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Logic.Ui\obj\Debug\Logic.Ui.csproj.AssemblyReference.cache
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Logic.Ui\obj\Debug\Logic.Ui.csproj.CoreCompileInputs.cache
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Logic.Ui\obj\Debug\Logic.Ui.csproj.Up2Date
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Logic.Ui\obj\Debug\Logic.Ui.dll
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Logic.Ui\obj\Debug\Logic.Ui.pdb
+C:\Users\nilsb\Desktop\ClientApp112\Logic.Ui\bin\Debug\Logic.Ui.dll
+C:\Users\nilsb\Desktop\ClientApp112\Logic.Ui\bin\Debug\Logic.Ui.pdb
+C:\Users\nilsb\Desktop\ClientApp112\Logic.Ui\bin\Debug\Business.Model.dll
+C:\Users\nilsb\Desktop\ClientApp112\Logic.Ui\bin\Debug\Services.MessageBus.dll
+C:\Users\nilsb\Desktop\ClientApp112\Logic.Ui\bin\Debug\Services.SerializationService.dll
+C:\Users\nilsb\Desktop\ClientApp112\Logic.Ui\bin\Debug\Business.Model.pdb
+C:\Users\nilsb\Desktop\ClientApp112\Logic.Ui\bin\Debug\Services.MessageBus.pdb
+C:\Users\nilsb\Desktop\ClientApp112\Logic.Ui\bin\Debug\Services.SerializationService.pdb
+C:\Users\nilsb\Desktop\ClientApp112\Logic.Ui\obj\Debug\Logic.Ui.csproj.AssemblyReference.cache
+C:\Users\nilsb\Desktop\ClientApp112\Logic.Ui\obj\Debug\Logic.Ui.csproj.CoreCompileInputs.cache
+C:\Users\nilsb\Desktop\ClientApp112\Logic.Ui\obj\Debug\Logic.Ui.csproj.Up2Date
+C:\Users\nilsb\Desktop\ClientApp112\Logic.Ui\obj\Debug\Logic.Ui.dll
+C:\Users\nilsb\Desktop\ClientApp112\Logic.Ui\obj\Debug\Logic.Ui.pdb

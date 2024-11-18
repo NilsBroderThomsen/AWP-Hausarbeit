@@ -1,0 +1,27 @@
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Services.SerializationService\bin\Debug\Services.SerializationService.dll
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Services.SerializationService\bin\Debug\Services.SerializationService.pdb
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Services.SerializationService\bin\Debug\Business.Model.dll
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Services.SerializationService\bin\Debug\Business.Model.pdb
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Services.SerializationService\obj\Debug\Services.SerializationService.csproj.AssemblyReference.cache
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Services.SerializationService\obj\Debug\Services.SerializationService.csproj.CoreCompileInputs.cache
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Services.SerializationService\obj\Debug\Services.SerializationService.csproj.CopyComplete
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Services.SerializationService\obj\Debug\Services.SerializationService.dll
+C:\Users\Henrike\Documents\Studium - Infos\Dokumente\WiSe 23-24\Anwendungsprogrammierung\Labor\ClientApp042\Services.SerializationService\obj\Debug\Services.SerializationService.pdb
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Services.SerializationService\bin\Debug\Services.SerializationService.dll
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Services.SerializationService\bin\Debug\Services.SerializationService.pdb
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Services.SerializationService\bin\Debug\Business.Model.dll
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Services.SerializationService\bin\Debug\Business.Model.pdb
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Services.SerializationService\obj\Debug\Services.SerializationService.csproj.AssemblyReference.cache
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Services.SerializationService\obj\Debug\Services.SerializationService.csproj.CoreCompileInputs.cache
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Services.SerializationService\obj\Debug\Services.4B4DD872.Up2Date
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Services.SerializationService\obj\Debug\Services.SerializationService.dll
+C:\Users\nilsb\Desktop\ClientApp042 - Stand 03.11 f\Services.SerializationService\obj\Debug\Services.SerializationService.pdb
+C:\Users\nilsb\Desktop\ClientApp112\Services.SerializationService\bin\Debug\Services.SerializationService.dll
+C:\Users\nilsb\Desktop\ClientApp112\Services.SerializationService\bin\Debug\Services.SerializationService.pdb
+C:\Users\nilsb\Desktop\ClientApp112\Services.SerializationService\bin\Debug\Business.Model.dll
+C:\Users\nilsb\Desktop\ClientApp112\Services.SerializationService\bin\Debug\Business.Model.pdb
+C:\Users\nilsb\Desktop\ClientApp112\Services.SerializationService\obj\Debug\Services.SerializationService.csproj.AssemblyReference.cache
+C:\Users\nilsb\Desktop\ClientApp112\Services.SerializationService\obj\Debug\Services.SerializationService.csproj.CoreCompileInputs.cache
+C:\Users\nilsb\Desktop\ClientApp112\Services.SerializationService\obj\Debug\Services.4B4DD872.Up2Date
+C:\Users\nilsb\Desktop\ClientApp112\Services.SerializationService\obj\Debug\Services.SerializationService.dll
+C:\Users\nilsb\Desktop\ClientApp112\Services.SerializationService\obj\Debug\Services.SerializationService.pdb
