@@ -21,30 +21,30 @@
         <GroupBox Header="Install Options" Margin="0,0,0,10">
             <StackPanel Margin="5">
                 <CheckBox Content="Silent" 
-                          IsChecked="{Binding NewPackage.InstallOptionsViewModel.IsSilent}" 
+                          IsChecked="{Binding Package.InstallOptionsViewModel.IsSilent}" 
                           Margin="0,0,0,5"/>
                 <CheckBox Content="Force" 
-                          IsChecked="{Binding NewPackage.InstallOptionsViewModel.Force}" 
+                          IsChecked="{Binding Package.InstallOptionsViewModel.Force}" 
                           Margin="0,0,0,5"/>
 
                 <TextBlock Text="Scope:"/>
-                <TextBox Text="{Binding NewPackage.InstallOptionsViewModel.Scope}" 
+                <TextBox Text="{Binding Package.InstallOptionsViewModel.Scope}" 
                          Margin="0,0,0,5"/>
 
                 <TextBlock Text="Location:"/>
-                <TextBox Text="{Binding NewPackage.InstallOptionsViewModel.Location}" 
+                <TextBox Text="{Binding Package.InstallOptionsViewModel.Location}" 
                          Margin="0,0,0,5"/>
 
                 <TextBlock Text="Version:"/>
-                <TextBox Text="{Binding NewPackage.InstallOptionsViewModel.Version}" 
+                <TextBox Text="{Binding Package.InstallOptionsViewModel.Version}" 
                          Margin="0,0,0,5"/>
 
                 <TextBlock Text="Dependency Source:"/>
-                <TextBox Text="{Binding NewPackage.InstallOptionsViewModel.DependencySource}" 
+                <TextBox Text="{Binding Package.InstallOptionsViewModel.DependencySource}" 
                          Margin="0,0,0,5"/>
 
                 <TextBlock Text="Custom Arguments:"/>
-                <TextBox Text="{Binding NewPackage.InstallOptionsViewModel.CustomArguments}" 
+                <TextBox Text="{Binding Package.InstallOptionsViewModel.CustomArguments}" 
                          Margin="0,0,0,5"/>
             </StackPanel>
         </GroupBox>

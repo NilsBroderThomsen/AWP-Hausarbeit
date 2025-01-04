@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{3188BC8C-FB99-4AB9-AFD3-D627049DDE22}|Logic.Ui\\Logic.Ui.csproj|c:\\users\\nilsb\\desktop\\awp-hausarbeit\\logic.ui\\messagebusmessages\\openeditpackagewindowmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3188BC8C-FB99-4AB9-AFD3-D627049DDE22}|Logic.Ui\\Logic.Ui.csproj|solutionrelative:logic.ui\\messagebusmessages\\openeditpackagewindowmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{798DB4D8-39E2-4A4E-892F-898E0C2AB5AC}|Ui.Desktop\\Ui.Desktop.csproj|c:\\users\\nilsb\\desktop\\awp-hausarbeit\\ui.desktop\\messagebuslogic\\messagelistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{798DB4D8-39E2-4A4E-892F-898E0C2AB5AC}|Ui.Desktop\\Ui.Desktop.csproj|solutionrelative:ui.desktop\\messagebuslogic\\messagelistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3188BC8C-FB99-4AB9-AFD3-D627049DDE22}|Logic.Ui\\Logic.Ui.csproj|c:\\users\\nilsb\\desktop\\awp-hausarbeit\\logic.ui\\viewmodels\\editpackagewindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3188BC8C-FB99-4AB9-AFD3-D627049DDE22}|Logic.Ui\\Logic.Ui.csproj|solutionrelative:logic.ui\\viewmodels\\editpackagewindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,50 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OpenEditPackageWindowMessage.cs",
-              "DocumentMoniker": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\Logic.Ui\\MessageBusMessages\\OpenEditPackageWindowMessage.cs",
-              "RelativeDocumentMoniker": "Logic.Ui\\MessageBusMessages\\OpenEditPackageWindowMessage.cs",
-              "ToolTip": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\Logic.Ui\\MessageBusMessages\\OpenEditPackageWindowMessage.cs",
-              "RelativeToolTip": "Logic.Ui\\MessageBusMessages\\OpenEditPackageWindowMessage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T20:33:35.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MessageListener.cs",
-              "DocumentMoniker": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\Ui.Desktop\\MessageBusLogic\\MessageListener.cs",
-              "RelativeDocumentMoniker": "Ui.Desktop\\MessageBusLogic\\MessageListener.cs",
-              "ToolTip": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\Ui.Desktop\\MessageBusLogic\\MessageListener.cs",
-              "RelativeToolTip": "Ui.Desktop\\MessageBusLogic\\MessageListener.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAWwCIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T20:22:06.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EditPackageWindowViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\Logic.Ui\\ViewModels\\EditPackageWindowViewModel.cs",
-              "RelativeDocumentMoniker": "Logic.Ui\\ViewModels\\EditPackageWindowViewModel.cs",
-              "ToolTip": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\Logic.Ui\\ViewModels\\EditPackageWindowViewModel.cs",
-              "RelativeToolTip": "Logic.Ui\\ViewModels\\EditPackageWindowViewModel.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T20:21:31.404Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -14,6 +14,7 @@ namespace De.HsFlensburg.ClientApp112.Logic.Ui.ViewModels
     public class MainWindowViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
+
         private PackageCollectionViewModel packages;
         public PackageCollectionViewModel Packages
         {
@@ -24,6 +25,7 @@ namespace De.HsFlensburg.ClientApp112.Logic.Ui.ViewModels
                 OnPropertyChanged(nameof(Packages));
             }
         }
+
         private PackageViewModel selectedPackage;
         public PackageViewModel SelectedPackage
         {
@@ -39,6 +41,7 @@ namespace De.HsFlensburg.ClientApp112.Logic.Ui.ViewModels
         // Commands
         public ICommand OpenNewPackageWindowCommand { get; }
         public ICommand OpenEditPackageWindowCommand { get; }
+        public ICommand ValidateScriptCommand { get; }
         public ICommand ImportScriptCommand { get; }
         public ICommand ExportScriptCommand { get; }
 
@@ -48,7 +51,7 @@ namespace De.HsFlensburg.ClientApp112.Logic.Ui.ViewModels
 
             OpenNewPackageWindowCommand = new RelayCommand(OpenNewPackageWindowMethode);
             OpenEditPackageWindowCommand = new RelayCommand(EditPackageMethod, CanEditPackage);
-
+            ValidateScriptCommand = new RelayCommand(() => ValidateScript());
             ImportScriptCommand = new RelayCommand(() => ImportScript());
             ExportScriptCommand = new RelayCommand(() => ExportScript());
         }
@@ -73,6 +76,10 @@ namespace De.HsFlensburg.ClientApp112.Logic.Ui.ViewModels
         }
 
         private void ExportScript()
+        {
+        }
+
+        private void ValidateScript()
         {
         }
 
