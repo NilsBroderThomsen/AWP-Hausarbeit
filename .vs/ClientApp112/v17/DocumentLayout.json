@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{798DB4D8-39E2-4A4E-892F-898E0C2AB5AC}|Ui.Desktop\\Ui.Desktop.csproj|c:\\users\\nilsb\\desktop\\awp-hausarbeit\\ui.desktop\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{798DB4D8-39E2-4A4E-892F-898E0C2AB5AC}|Ui.Desktop\\Ui.Desktop.csproj|solutionrelative:ui.desktop\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{798DB4D8-39E2-4A4E-892F-898E0C2AB5AC}|Ui.Desktop\\Ui.Desktop.csproj|C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\ui.desktop\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{798DB4D8-39E2-4A4E-892F-898E0C2AB5AC}|Ui.Desktop\\Ui.Desktop.csproj|solutionrelative:ui.desktop\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{798DB4D8-39E2-4A4E-892F-898E0C2AB5AC}|Ui.Desktop\\Ui.Desktop.csproj|c:\\users\\nilsb\\desktop\\awp-hausarbeit\\ui.desktop\\newpackagewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{798DB4D8-39E2-4A4E-892F-898E0C2AB5AC}|Ui.Desktop\\Ui.Desktop.csproj|solutionrelative:ui.desktop\\newpackagewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\Ui.Desktop\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Ui.Desktop\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\Ui.Desktop\\MainWindow.xaml",
+              "RelativeToolTip": "Ui.Desktop\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-04T16:22:02.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewPackageWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\Ui.Desktop\\NewPackageWindow.xaml",
+              "RelativeDocumentMoniker": "Ui.Desktop\\NewPackageWindow.xaml",
+              "ToolTip": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\Ui.Desktop\\NewPackageWindow.xaml",
+              "RelativeToolTip": "Ui.Desktop\\NewPackageWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-03T20:47:40.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\Ui.Desktop\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Ui.Desktop\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\Ui.Desktop\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Ui.Desktop\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T20:47:38.013Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{798DB4D8-39E2-4A4E-892F-898E0C2AB5AC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>De.HsFlensburg.ClientApp042.Ui.Desktop</RootNamespace>
+    <RootNamespace>De.HsFlensburg.ClientApp112.Ui.Desktop</RootNamespace>
     <AssemblyName>Ui.Desktop</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -67,15 +67,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="NewClientWindow.xaml">
+    <Page Include="NewPackageWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MessageBusLogic\MessageListener.cs" />
-    <Compile Include="NewClientWindow.xaml.cs">
-      <DependentUpon>NewClientWindow.xaml</DependentUpon>
+    <Compile Include="NewPackageWindow.xaml.cs">
+      <DependentUpon>NewPackageWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

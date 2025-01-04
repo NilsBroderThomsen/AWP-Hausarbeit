@@ -6,61 +6,71 @@
         xmlns:local="clr-namespace:De.HsFlensburg.ClientApp112.Ui.Desktop"
         xmlns:viewModels="clr-namespace:De.HsFlensburg.ClientApp112.Logic.Ui.ViewModels;assembly=Logic.Ui"
         mc:Ignorable="d"
-        Title="MainWindow" Height="250" Width="500">
-    <!--<Window.Resources>
-        <viewModels:MainWindowViewModel
-            x:Key="myViewModel">
-        </viewModels:MainWindowViewModel>
-    </Window.Resources>-->
+        Title="Winget Script Manager" Height="550" Width="500">
 
     <Window.DataContext>
-        <Binding Source="{StaticResource ViewModelLocator}"
-                 Path="TheMainWindowViewModel"></Binding>
+        <Binding Source="{StaticResource ViewModelLocator}" Path="TheMainWindowViewModel"></Binding>
     </Window.DataContext>
-
-    <Window.IsEnabled>
-        <Binding Source="{StaticResource MessageListener}" Path="BindableProperty">
-        </Binding>
-    </Window.IsEnabled>
 
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="3*" />
         </Grid.ColumnDefinitions>
-        <UniformGrid Grid.Column="0" Rows="4" Columns="2">
-            <Label VerticalAlignment="Center"
-               HorizontalAlignment="Right">
-                Identifier
-            </Label>
-            <TextBox VerticalAlignment="Center"
-                 Text="{Binding ElementName=myDataGrid,
-                Path=SelectedItem.Id}">
-            </TextBox>
-            <Label VerticalAlignment="Center"
-                HorizontalAlignment="Right">
-                Name</Label>
-            <TextBox VerticalAlignment="Center"
-                 Text="{Binding ElementName=myDataGrid,
-                Path=SelectedItem.Name}">
-            </TextBox>
-            <Button Command="{Binding RenameValueInModelCommand}">
-                Rename first Item
-            </Button>
-            <Button Command="{Binding OpenNewClientWindowCommand}">
-                OpenClientWindow
-            </Button>
-            <Button Command="{Binding SaveCommand}">
-                Save
-            </Button>
-            <Button Command="{Binding LoadCommand}">
-                Load
-            </Button>
-        </UniformGrid>
-        <DataGrid Grid.Column="1"
-                  Name="myDataGrid"
-                  ItemsSource="{Binding Path=MyList}"
-                  >
+
+        <!-- LINKE SPALTE: -->
+        <StackPanel Margin="10" Grid.Column="0">
+            <TextBlock Text="Selected Package" FontWeight="Bold" Margin="0,0,0,8" />
+
+            <TextBlock Text="Name:"/>
+            <TextBox Text="{Binding SelectedPackage.Name}" Margin="0,0,0,5" />
+
+            <TextBlock Text="Package ID:"/>
+            <TextBox Text="{Binding SelectedPackage.PackageId}" Margin="0,0,0,5" />
+
+            <TextBlock Text="Category:"/>
+            <TextBox Text="{Binding SelectedPackage.Category}" Margin="0,0,0,10" />
+
+            <GroupBox Header="Install Options" Margin="0,0,0,5">
+                <StackPanel Margin="5">
+                    <CheckBox Content="Silent" 
+                              IsChecked="{Binding SelectedPackage.InstallOptionsViewModel.IsSilent}" />
+                    <CheckBox Content="Force" 
+                              IsChecked="{Binding SelectedPackage.InstallOptionsViewModel.Force}" />
+                    <TextBlock Text="Scope:"/>
+                    <TextBox Text="{Binding SelectedPackage.InstallOptionsViewModel.Scope}" />
+                    <TextBlock Text="Location:"/>
+                    <TextBox Text="{Binding SelectedPackage.InstallOptionsViewModel.Location}" />
+                    <TextBlock Text="Version:"/>
+                    <TextBox Text="{Binding SelectedPackage.InstallOptionsViewModel.Version}" />
+                    <TextBlock Text="Dependency Source:"/>
+                    <TextBox Text="{Binding SelectedPackage.InstallOptionsViewModel.DependencySource}" />
+                    <TextBlock Text="Custom Arguments:"/>
+                    <TextBox Text="{Binding SelectedPackage.InstallOptionsViewModel.CustomArguments}" />
+                </StackPanel>
+            </GroupBox>
+
+            <Button Content="Neues Package hinzufügen"
+                    Margin="0,10,0,0"
+                    Command="{Binding OpenNewPackageWindowCommand}"/>
+
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0" HorizontalAlignment="Center">
+                <Button Content="Import Script" Command="{Binding ImportScriptCommand}" Padding="5,0,5,0"/>
+                <Button Content="Export Script" Command="{Binding ExportScriptCommand}" Padding="5,0,5,0" Margin="10,0,0,0"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- RECHTE SPALTE: -->
+        <DataGrid Grid.Column="1" Margin="10"
+                  ItemsSource="{Binding Packages}"
+                  SelectedItem="{Binding SelectedPackage}"
+                  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="Package ID" Binding="{Binding PackageId}" />
+                <DataGridTextColumn Header="Category" Binding="{Binding Category}" />
+            </DataGrid.Columns>
         </DataGrid>
+        
     </Grid>
 </Window>

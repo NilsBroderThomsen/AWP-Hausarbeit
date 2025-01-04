@@ -1,62 +1,70 @@
-﻿using De.HsFlensburg.ClientApp112.Logic.Ui.MessageBusMessages;
-using De.HsFlensburg.ClientApp112.Logic.Ui.Wrapper;
-using De.HsFlensburg.ClientApp112.Services.MessageBus;
-using De.HsFlensburg.ClientApp112.Services.SerializationService;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
-using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using De.HsFlensburg.ClientApp112.Services.MessageBus;
+using De.HsFlensburg.ClientApp112.Logic.Ui.MessageBusMessages;
+using De.HsFlensburg.ClientApp112.Logic.Ui.Wrapper;
 
 namespace De.HsFlensburg.ClientApp112.Logic.Ui.ViewModels
 {
-    public class MainWindowViewModel
+    public class MainWindowViewModel : INotifyPropertyChanged
     {
-        public ModelFileHandler modelFileHandler;
-        private string pathForSerialization;
-        public ICommand RenameValueInModelCommand { get; }
-        public ICommand SaveCommand { get; }
-        public ICommand LoadCommand { get; }
-        public ICommand OpenNewClientWindowCommand { get; }
-        private void OpenNewClientWindowMethod()
+        public event PropertyChangedEventHandler PropertyChanged;
+        private PackageCollectionViewModel packages;
+        public PackageCollectionViewModel Packages
         {
-            ServiceBus.Instance.Send(new OpenNewClientWindowMessage());
+            get => packages;
+            set
+            {
+                packages = value;
+                OnPropertyChanged(nameof(Packages));
+            }
         }
-        public ClientCollectionViewModel MyList { get; set; }
-        public MainWindowViewModel(ClientCollectionViewModel viewModelCollection)
+        private PackageViewModel selectedPackage;
+        public PackageViewModel SelectedPackage
         {
-            RenameValueInModelCommand = new RelayCommand(RenameValueInModel);
-            SaveCommand = new RelayCommand(SaveModel);
-            LoadCommand = new RelayCommand(LoadModel);
-            OpenNewClientWindowCommand = new RelayCommand(OpenNewClientWindowMethod);
-            //MyList = new ClientCollectionViewModel();
-            MyList = viewModelCollection;
-            modelFileHandler = new ModelFileHandler();
-            pathForSerialization = Environment.GetFolderPath(
-                Environment.SpecialFolder.MyDocuments) +
-                "\\ClientCollectionSerialization\\MyClients.cc";
+            get => selectedPackage;
+            set
+            {
+                selectedPackage = value;
+                OnPropertyChanged(nameof(SelectedPackage));
+            }
         }
 
-        private void RenameValueInModel()
+        // Commands
+        public ICommand OpenNewPackageWindowCommand { get; }
+        public ICommand ImportScriptCommand { get; }
+        public ICommand ExportScriptCommand { get; }
+
+        public MainWindowViewModel(PackageCollectionViewModel collectionVm)
         {
-            var first =
-                MyList.FirstOrDefault();
-            first.Model.Name =
-                "Rename in the model";
+            Packages = collectionVm;
+
+            OpenNewPackageWindowCommand = new RelayCommand(OpenNewPackageWindowMethode);
+            ImportScriptCommand = new RelayCommand(() => ImportScript());
+            ExportScriptCommand = new RelayCommand(() => ExportScript());
         }
-        private void SaveModel()
+
+        private void OpenNewPackageWindowMethode()
         {
-            modelFileHandler.WriteModelToFile(
-                pathForSerialization,
-                MyList.Model);
+            ServiceBus.Instance.Send(new OpenNewPackageWindowMessage());
         }
-        private void LoadModel()
+
+        private void ImportScript()
         {
-            MyList.Model = modelFileHandler.ReadModelFromFile(
-                pathForSerialization);
+        }
+
+        private void ExportScript()
+        {
+        }
+
+        private void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

@@ -8,9 +8,6 @@ using System.Windows;
 
 namespace De.HsFlensburg.ClientApp112.Ui.Desktop
 {
-    /// <summary>
-    /// Interaktionslogik für "App.xaml"
-    /// </summary>
     public partial class App : Application
     {
     }

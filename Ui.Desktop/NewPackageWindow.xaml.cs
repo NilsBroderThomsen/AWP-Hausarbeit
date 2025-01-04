@@ -14,12 +14,9 @@ using System.Windows.Shapes;
 
 namespace De.HsFlensburg.ClientApp112.Ui.Desktop
 {
-    /// <summary>
-    /// Interaktionslogik für NewClientWindow.xaml
-    /// </summary>
-    public partial class NewClientWindow : Window
+    public partial class NewPackageWindow : Window
     {
-        public NewClientWindow()
+        public NewPackageWindow()
         {
             InitializeComponent();
         }

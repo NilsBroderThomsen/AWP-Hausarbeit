@@ -12,22 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using De.HsFlensburg.ClientApp112.Ui.Desktop.MessageBusLogic;
 
 namespace De.HsFlensburg.ClientApp112.Ui.Desktop
 {
-    /// <summary>
-    /// Interaktionslogik für MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
+        private MessageListener messageListener;
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
+            messageListener = new MessageListener();
         }
     }
 }

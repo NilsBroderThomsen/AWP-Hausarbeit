@@ -7,7 +7,7 @@
     <ProjectGuid>{98487BA4-4CA2-4389-BC7C-BA637373CA00}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>De.HsFlensburg.ClientApp042.Business.Model</RootNamespace>
+    <RootNamespace>De.HsFlensburg.ClientApp112.Business.Model</RootNamespace>
     <AssemblyName>Business.Model</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -41,9 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BusinessObjects\Client.cs" />
-    <Compile Include="BusinessObjects\ClientCollection.cs" />
+    <Compile Include="BusinessObjects\InstallOptions.cs" />
+    <Compile Include="BusinessObjects\Package.cs" />
+    <Compile Include="BusinessObjects\PackageCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

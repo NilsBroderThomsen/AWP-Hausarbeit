@@ -25,3 +25,12 @@ C:\Users\nilsb\Desktop\ClientApp112\Services.SerializationService\obj\Debug\Serv
 C:\Users\nilsb\Desktop\ClientApp112\Services.SerializationService\obj\Debug\Services.4B4DD872.Up2Date
 C:\Users\nilsb\Desktop\ClientApp112\Services.SerializationService\obj\Debug\Services.SerializationService.dll
 C:\Users\nilsb\Desktop\ClientApp112\Services.SerializationService\obj\Debug\Services.SerializationService.pdb
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Services.SerializationService\bin\Debug\Services.SerializationService.dll
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Services.SerializationService\bin\Debug\Services.SerializationService.pdb
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Services.SerializationService\bin\Debug\Business.Model.dll
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Services.SerializationService\bin\Debug\Business.Model.pdb
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Services.SerializationService\obj\Debug\Services.SerializationService.csproj.AssemblyReference.cache
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Services.SerializationService\obj\Debug\Services.SerializationService.csproj.CoreCompileInputs.cache
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Services.SerializationService\obj\Debug\Services.4B4DD872.Up2Date
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Services.SerializationService\obj\Debug\Services.SerializationService.dll
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Services.SerializationService\obj\Debug\Services.SerializationService.pdb

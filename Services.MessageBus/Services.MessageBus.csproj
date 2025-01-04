@@ -7,7 +7,7 @@
     <ProjectGuid>{B156F09D-9CE7-49FA-9635-FDFAEADD79CC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>De.HsFlensburg.ClientApp042.Services.MessageBus</RootNamespace>
+    <RootNamespace>De.HsFlensburg.ClientApp112.Services.MessageBus</RootNamespace>
     <AssemblyName>Services.MessageBus</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

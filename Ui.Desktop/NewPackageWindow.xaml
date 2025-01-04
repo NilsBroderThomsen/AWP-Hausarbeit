@@ -1,0 +1,70 @@
+﻿<Window x:Class="De.HsFlensburg.ClientApp112.Ui.Desktop.NewPackageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Neues Package" Height="550" Width="400">
+    <Window.DataContext>
+        <Binding Source="{StaticResource ViewModelLocator}" Path="TheNewPackageWindowViewModel" />
+    </Window.DataContext>
+
+    <StackPanel Margin="10">
+        <TextBlock Text="Neues Paket anlegen" 
+                   FontWeight="Bold" 
+                   Margin="0,0,0,8" 
+                   FontSize="16"/>
+
+        <TextBlock Text="Name:"/>
+        <TextBox Text="{Binding NewPackage.Name}" Margin="0,0,0,5" />
+
+        <TextBlock Text="Package ID:"/>
+        <TextBox Text="{Binding NewPackage.PackageId}" Margin="0,0,0,5" />
+
+        <TextBlock Text="Category:"/>
+        <TextBox Text="{Binding NewPackage.Category}" Margin="0,0,0,10" />
+
+        <!-- GroupBox für alle InstallOptions -->
+        <GroupBox Header="Install Options" Margin="0,0,0,10">
+            <StackPanel Margin="5">
+                <CheckBox Content="Silent" 
+                          IsChecked="{Binding NewPackage.InstallOptionsViewModel.IsSilent}" 
+                          Margin="0,0,0,5"/>
+                <CheckBox Content="Force" 
+                          IsChecked="{Binding NewPackage.InstallOptionsViewModel.Force}" 
+                          Margin="0,0,0,5"/>
+
+                <TextBlock Text="Scope:"/>
+                <TextBox Text="{Binding NewPackage.InstallOptionsViewModel.Scope}" 
+                         Margin="0,0,0,5"/>
+
+                <TextBlock Text="Location:"/>
+                <TextBox Text="{Binding NewPackage.InstallOptionsViewModel.Location}" 
+                         Margin="0,0,0,5"/>
+
+                <TextBlock Text="Version:"/>
+                <TextBox Text="{Binding NewPackage.InstallOptionsViewModel.Version}" 
+                         Margin="0,0,0,5"/>
+
+                <TextBlock Text="Dependency Source:"/>
+                <TextBox Text="{Binding NewPackage.InstallOptionsViewModel.DependencySource}" 
+                         Margin="0,0,0,5"/>
+
+                <TextBlock Text="Custom Arguments:"/>
+                <TextBox Text="{Binding NewPackage.InstallOptionsViewModel.CustomArguments}" 
+                         Margin="0,0,0,5"/>
+            </StackPanel>
+        </GroupBox>
+
+        <!-- OK/Cancel Buttons -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="OK" 
+                    Command="{Binding ConfirmCommand}" 
+                    Width="80" />
+            <Button Content="Abbrechen" 
+                    Command="{Binding CancelCommand}" 
+                    Width="80" 
+                    Margin="10,0,0,0" />
+        </StackPanel>
+    </StackPanel>
+</Window>

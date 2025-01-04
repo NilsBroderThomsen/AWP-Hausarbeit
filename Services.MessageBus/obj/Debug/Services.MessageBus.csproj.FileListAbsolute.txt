@@ -16,3 +16,9 @@ C:\Users\nilsb\Desktop\ClientApp112\Services.MessageBus\obj\Debug\Services.Messa
 C:\Users\nilsb\Desktop\ClientApp112\Services.MessageBus\obj\Debug\Services.MessageBus.csproj.CoreCompileInputs.cache
 C:\Users\nilsb\Desktop\ClientApp112\Services.MessageBus\obj\Debug\Services.MessageBus.dll
 C:\Users\nilsb\Desktop\ClientApp112\Services.MessageBus\obj\Debug\Services.MessageBus.pdb
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Services.MessageBus\bin\Debug\Services.MessageBus.dll
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Services.MessageBus\bin\Debug\Services.MessageBus.pdb
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Services.MessageBus\obj\Debug\Services.MessageBus.csproj.AssemblyReference.cache
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Services.MessageBus\obj\Debug\Services.MessageBus.csproj.CoreCompileInputs.cache
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Services.MessageBus\obj\Debug\Services.MessageBus.dll
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Services.MessageBus\obj\Debug\Services.MessageBus.pdb

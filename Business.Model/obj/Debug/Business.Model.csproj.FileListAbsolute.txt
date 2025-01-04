@@ -16,3 +16,9 @@ C:\Users\nilsb\Desktop\ClientApp112\Business.Model\obj\Debug\Business.Model.cspr
 C:\Users\nilsb\Desktop\ClientApp112\Business.Model\obj\Debug\Business.Model.csproj.CoreCompileInputs.cache
 C:\Users\nilsb\Desktop\ClientApp112\Business.Model\obj\Debug\Business.Model.dll
 C:\Users\nilsb\Desktop\ClientApp112\Business.Model\obj\Debug\Business.Model.pdb
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Business.Model\bin\Debug\Business.Model.dll
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Business.Model\bin\Debug\Business.Model.pdb
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Business.Model\obj\Debug\Business.Model.csproj.AssemblyReference.cache
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Business.Model\obj\Debug\Business.Model.csproj.CoreCompileInputs.cache
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Business.Model\obj\Debug\Business.Model.dll
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Business.Model\obj\Debug\Business.Model.pdb

@@ -45,7 +45,6 @@ namespace De.HsFlensburg.ClientApp112.Logic.Ui.Base
             }
             syncDisabled = false;
         }
-        //protected abstract void SyncProperties(TypeModelCollection value);
         public ViewModelSyncCollection()
         {
             this.model = new TypeModelCollection();

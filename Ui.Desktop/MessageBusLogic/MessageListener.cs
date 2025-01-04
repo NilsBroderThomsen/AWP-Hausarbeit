@@ -5,11 +5,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace De.HsFlensburg.ClientApp112.Ui.Desktop.MessageBusLogic
 {
     class MessageListener
     {
+        private Window myWindow;
         public bool BindableProperty => true;
         public MessageListener()
         {
@@ -17,13 +19,13 @@ namespace De.HsFlensburg.ClientApp112.Ui.Desktop.MessageBusLogic
         }
         private void InitMessenger()
         {
-            ServiceBus.Instance.Register<OpenNewClientWindowMessage>
-                (this, OpenNewClientWindow
-                );
+            ServiceBus.Instance.Register<OpenNewPackageWindowMessage>
+                (this, OpenNewPackageWindow);
         }
-        private void OpenNewClientWindow()
+
+        private void OpenNewPackageWindow()
         {
-            NewClientWindow myWindow = new NewClientWindow();
+            myWindow = new NewPackageWindow();
             myWindow.ShowDialog();
         }
     }
