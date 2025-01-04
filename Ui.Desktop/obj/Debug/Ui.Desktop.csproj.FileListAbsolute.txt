@@ -108,3 +108,5 @@ C:\Users\nilsb\Desktop\AWP-Hausarbeit\Ui.Desktop\obj\Debug\Ui.Desktop.pdb
 C:\Users\nilsb\Desktop\AWP-Hausarbeit\Ui.Desktop\obj\Debug\NewPackageWindow.g.cs
 C:\Users\nilsb\Desktop\AWP-Hausarbeit\Ui.Desktop\obj\Debug\NewPackageWindow.baml
 C:\Users\nilsb\Desktop\AWP-Hausarbeit\Ui.Desktop\obj\Debug\De.HsFlensburg.ClientApp112.Ui.Desktop.Properties.Resources.resources
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Ui.Desktop\obj\Debug\EditPackageWindow.baml
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Ui.Desktop\obj\Debug\EditPackageWindow.g.cs

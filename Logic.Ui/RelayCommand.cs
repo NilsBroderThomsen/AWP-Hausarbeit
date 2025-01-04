@@ -9,11 +9,8 @@ namespace De.HsFlensburg.ClientApp112.Logic.Ui
 {
     public class RelayCommand : ICommand
     {
-        public event EventHandler CanExecuteChanged
-        {
-            add { }
-            remove { }
-        }
+        public event EventHandler CanExecuteChanged;
+
         private Action methodToExecute;
         private Func<bool> canExecuteEvaluator;
         public RelayCommand(Action methodToExecute, Func<bool> canExecuteEvaluator)
@@ -40,6 +37,11 @@ namespace De.HsFlensburg.ClientApp112.Logic.Ui
         public void Execute(object parameter)
         {
             this.methodToExecute.Invoke();
+        }
+
+        internal void RaiseCanExecuteChanged()
+        {
+            CanExecuteChanged?.Invoke(this, EventArgs.Empty);
         }
     }
 }

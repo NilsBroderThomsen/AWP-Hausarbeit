@@ -4,8 +4,11 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using De.HsFlensburg.ClientApp112.Logic.Ui.Wrapper;
 using System.Windows.Input;
+using De.HsFlensburg.ClientApp112.Services.MessageBus;
+using De.HsFlensburg.ClientApp112.Logic.Ui.Wrapper;
+using De.HsFlensburg.ClientApp112.Logic.Ui.MessageBusMessages;
+using System.Threading;
 
 namespace De.HsFlensburg.ClientApp112.Logic.Ui.ViewModels
 {
@@ -31,25 +34,28 @@ namespace De.HsFlensburg.ClientApp112.Logic.Ui.ViewModels
         public NewPackageWindowViewModel(PackageCollectionViewModel packageCollection)
         {
             this.packageCollection = packageCollection;
-            this.NewPackage = new PackageViewModel();
+            Reset();
 
             ConfirmCommand = new RelayCommand(() => Confirm());
             CancelCommand = new RelayCommand(() => Cancel());
         }
 
+        private void Reset()
+        {
+            this.NewPackage = new PackageViewModel();
+        }
+
         private void Confirm()
         {
-            // Füge das neue Package in die Liste ein
             packageCollection.Add(NewPackage);
-
-            // Evtl. Fenster schließen -> In "reinem" MVVM macht man das
-            // per MessageBus/ Event. 
+            ServiceBus.Instance.Send(new CloseNewPackageWindowMessage());
+            Reset();
         }
 
         private void Cancel()
         {
-            // Abbrechen -> Fenster schließen. 
-            // Wieder: per MessageBus/ Event?
+            ServiceBus.Instance.Send(new CloseNewPackageWindowMessage());
+            Reset();
         }
 
         private void OnPropertyChanged(string propName)

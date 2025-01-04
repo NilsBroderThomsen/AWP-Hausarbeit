@@ -32,11 +32,13 @@ namespace De.HsFlensburg.ClientApp112.Logic.Ui.ViewModels
             {
                 selectedPackage = value;
                 OnPropertyChanged(nameof(SelectedPackage));
+                (OpenEditPackageWindowCommand as RelayCommand)?.RaiseCanExecuteChanged();
             }
         }
 
         // Commands
         public ICommand OpenNewPackageWindowCommand { get; }
+        public ICommand OpenEditPackageWindowCommand { get; }
         public ICommand ImportScriptCommand { get; }
         public ICommand ExportScriptCommand { get; }
 
@@ -45,6 +47,8 @@ namespace De.HsFlensburg.ClientApp112.Logic.Ui.ViewModels
             Packages = collectionVm;
 
             OpenNewPackageWindowCommand = new RelayCommand(OpenNewPackageWindowMethode);
+            OpenEditPackageWindowCommand = new RelayCommand(EditPackageMethod, CanEditPackage);
+
             ImportScriptCommand = new RelayCommand(() => ImportScript());
             ExportScriptCommand = new RelayCommand(() => ExportScript());
         }
@@ -52,6 +56,16 @@ namespace De.HsFlensburg.ClientApp112.Logic.Ui.ViewModels
         private void OpenNewPackageWindowMethode()
         {
             ServiceBus.Instance.Send(new OpenNewPackageWindowMessage());
+        }
+
+        private void EditPackageMethod()
+        {
+            ServiceBus.Instance.Send(new OpenEditPackageWindowMessage(SelectedPackage));
+        }
+
+        private bool CanEditPackage()
+        {
+            return SelectedPackage != null;
         }
 
         private void ImportScript()
