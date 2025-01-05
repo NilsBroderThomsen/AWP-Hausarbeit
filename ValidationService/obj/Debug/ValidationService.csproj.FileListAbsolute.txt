@@ -1,0 +1,6 @@
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\ValidationService\bin\Debug\ValidationService.dll
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\ValidationService\bin\Debug\ValidationService.pdb
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\ValidationService\obj\Debug\ValidationService.csproj.AssemblyReference.cache
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\ValidationService\obj\Debug\ValidationService.csproj.CoreCompileInputs.cache
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\ValidationService\obj\Debug\ValidationService.dll
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\ValidationService\obj\Debug\ValidationService.pdb

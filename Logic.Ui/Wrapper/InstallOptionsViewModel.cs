@@ -15,12 +15,7 @@ namespace De.HsFlensburg.ClientApp112.Logic.Ui.Wrapper
     {
         public InstallOptionsViewModel() : base() { }
         public InstallOptionsViewModel(InstallOptions model) : base(model) { }
-
-        public override void NewModelAssigned()
-        {
-            // Wird immer aufgerufen, wenn 'Model' neu gesetzt wird.
-            // Bei Bedarf hier extra Init machen.
-        }
+        public override void NewModelAssigned() { }
 
         public bool IsSilent
         {

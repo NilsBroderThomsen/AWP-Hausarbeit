@@ -50,3 +50,5 @@ C:\Users\nilsb\Desktop\AWP-Hausarbeit\Logic.Ui\obj\Debug\Logic.Ui.csproj.CoreCom
 C:\Users\nilsb\Desktop\AWP-Hausarbeit\Logic.Ui\obj\Debug\Logic.Ui.csproj.Up2Date
 C:\Users\nilsb\Desktop\AWP-Hausarbeit\Logic.Ui\obj\Debug\Logic.Ui.dll
 C:\Users\nilsb\Desktop\AWP-Hausarbeit\Logic.Ui\obj\Debug\Logic.Ui.pdb
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Logic.Ui\bin\Debug\Services.ValidationService.dll
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Logic.Ui\bin\Debug\Services.ValidationService.pdb

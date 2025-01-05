@@ -27,7 +27,6 @@ namespace De.HsFlensburg.ClientApp112.Logic.Ui.ViewModels
             }
         }
 
-        // Commands
         public ICommand ConfirmCommand { get; }
         public ICommand CancelCommand { get; }
 
@@ -35,7 +34,6 @@ namespace De.HsFlensburg.ClientApp112.Logic.Ui.ViewModels
         {
             this.packageCollection = packageCollection;
             Reset();
-
             ConfirmCommand = new RelayCommand(() => Confirm());
             CancelCommand = new RelayCommand(() => Cancel());
         }

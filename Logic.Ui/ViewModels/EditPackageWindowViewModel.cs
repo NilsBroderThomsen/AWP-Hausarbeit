@@ -21,32 +21,23 @@ namespace De.HsFlensburg.ClientApp112.Logic.Ui.ViewModels
             }
         }
 
-        // Commands
         public ICommand SaveCommand { get; }
         public ICommand CancelCommand { get; }
 
-        // Konstruktor nimmt das zu bearbeitende PackageViewModel
         public EditPackageWindowViewModel(PackageViewModel packageToEdit)
         {
             this.Package = packageToEdit;
-
             SaveCommand = new RelayCommand(Save);
             CancelCommand = new RelayCommand(Cancel);
         }
 
         private void Save()
         {
-            // Wir ändern das existierende Package direkt
-            // (Kein Hinzufügen zur Liste, existiert ja schon)
-            // Fenster schließen
             ServiceBus.Instance.Send(new CloseEditPackageWindowMessage());
         }
 
         private void Cancel()
         {
-            // Fenster schließen, ohne die Änderungen rückgängig zu machen
-            // (Die Änderungen wurden schon an das Objekt gebunden,
-            //  bei Bedarf müsstest du manuell einen 'Refresh' oder 'Clone' machen)
             ServiceBus.Instance.Send(new CloseEditPackageWindowMessage());
         }
 

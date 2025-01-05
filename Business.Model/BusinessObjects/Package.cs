@@ -10,6 +10,17 @@ namespace De.HsFlensburg.ClientApp112.Business.Model.BusinessObjects
     [Serializable]
     public class Package : INotifyPropertyChanged
     {
+        private PackageValidationState validationState = PackageValidationState.NotChecked;
+        public PackageValidationState ValidationState
+        {
+            get => validationState;
+            set
+            {
+                validationState = value;
+                OnPropertyChanged(nameof(ValidationState));
+            }
+        }
+
         private string name;
         public string Name
         {
@@ -32,7 +43,6 @@ namespace De.HsFlensburg.ClientApp112.Business.Model.BusinessObjects
             }
         }
 
-        // Referenz auf die InstallOptions:
         private InstallOptions installOptions = new InstallOptions();
         public InstallOptions InstallOptions
         {

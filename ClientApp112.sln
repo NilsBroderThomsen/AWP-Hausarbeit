@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ui.Desktop", "Ui.Desktop\Ui
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.SerializationService", "Services.SerializationService\Services.SerializationService.csproj", "{9C1E370D-3353-498F-967A-359ABE2E6AFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.ValidationService", "Services.ValidationService\Services.ValidationService.csproj", "{BF912ED0-AEA3-494C-9E18-604585C100E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{9C1E370D-3353-498F-967A-359ABE2E6AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C1E370D-3353-498F-967A-359ABE2E6AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C1E370D-3353-498F-967A-359ABE2E6AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF912ED0-AEA3-494C-9E18-604585C100E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF912ED0-AEA3-494C-9E18-604585C100E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF912ED0-AEA3-494C-9E18-604585C100E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF912ED0-AEA3-494C-9E18-604585C100E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +69,7 @@ Global
 		{B156F09D-9CE7-49FA-9635-FDFAEADD79CC} = {C95BEA53-B247-4704-870A-979124501CBD}
 		{798DB4D8-39E2-4A4E-892F-898E0C2AB5AC} = {602BD58B-8BF7-424E-BA8E-D8A8D658A1D2}
 		{9C1E370D-3353-498F-967A-359ABE2E6AFA} = {C95BEA53-B247-4704-870A-979124501CBD}
+		{BF912ED0-AEA3-494C-9E18-604585C100E2} = {C95BEA53-B247-4704-870A-979124501CBD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E3D55C4E-98CC-4BA5-93BC-E405DD89344E}

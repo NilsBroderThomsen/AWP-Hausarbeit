@@ -31,6 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -70,6 +71,10 @@
     <ProjectReference Include="..\Services.SerializationService\Services.SerializationService.csproj">
       <Project>{9C1E370D-3353-498F-967A-359ABE2E6AFA}</Project>
       <Name>Services.SerializationService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Services.ValidationService\Services.ValidationService.csproj">
+      <Project>{BF912ED0-AEA3-494C-9E18-604585C100E2}</Project>
+      <Name>Services.ValidationService</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

@@ -24,7 +24,6 @@
         <TextBlock Text="Category:"/>
         <TextBox Text="{Binding NewPackage.Category}" Margin="0,0,0,10" />
 
-        <!-- GroupBox für alle InstallOptions -->
         <GroupBox Header="Install Options" Margin="0,0,0,10">
             <StackPanel Margin="5">
                 <CheckBox Content="Silent" 
@@ -56,7 +55,6 @@
             </StackPanel>
         </GroupBox>
 
-        <!-- OK/Cancel Buttons -->
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
             <Button Content="OK" 
                     Command="{Binding ConfirmCommand}" 

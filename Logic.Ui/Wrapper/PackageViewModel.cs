@@ -15,26 +15,15 @@ namespace De.HsFlensburg.ClientApp112.Logic.Ui.Wrapper
     {
         private InstallOptionsViewModel installOptionsViewModel;
 
-        public PackageViewModel() : base()
-        {
-            // Da der parameterlose Basiskonstruktor 'Model = new Package()' auslöst,
-            // können wir in NewModelAssigned() die Zuweisung an installOptionsViewModel machen.
-        }
+        public PackageViewModel() : base() {  }
 
-        public PackageViewModel(Package package) : base(package)
-        {
-            // Hier legen wir das Model fest, dann 
-            // wird auch NewModelAssigned() aufgerufen.
-        }
+        public PackageViewModel(Package package) : base(package) { }
 
         public override void NewModelAssigned()
         {
-            // Wenn Model zugewiesen wird, legen wir 
-            // das InstallOptionsViewModel neu an:
             installOptionsViewModel = new InstallOptionsViewModel(Model.InstallOptions);
         }
 
-        // Beispiel-Properties
         public string Name
         {
             get => Model.Name;
@@ -65,7 +54,6 @@ namespace De.HsFlensburg.ClientApp112.Logic.Ui.Wrapper
             }
         }
 
-        // Zugriff auf das InstallOptionsViewModel 
         public InstallOptionsViewModel InstallOptionsViewModel
         {
             get => installOptionsViewModel;
@@ -73,6 +61,34 @@ namespace De.HsFlensburg.ClientApp112.Logic.Ui.Wrapper
             {
                 installOptionsViewModel = value;
                 OnPropertyChanged(nameof(InstallOptionsViewModel));
+            }
+        }
+
+        public PackageValidationState ValidationState
+        {
+            get => Model.ValidationState;
+            set
+            {
+                Model.ValidationState = value;
+                OnPropertyChanged(nameof(ValidationState));
+                OnPropertyChanged(nameof(ValidationStateText));
+            }
+        }
+        public string ValidationStateText
+        {
+            get
+            {
+                switch (ValidationState)
+                {
+                    case PackageValidationState.NotChecked:
+                        return "Noch nicht geprüft";
+                    case PackageValidationState.Valid:
+                        return "Valide";
+                    case PackageValidationState.Invalid:
+                        return "Ungültig";
+                    default:
+                        return "Unbekannt";
+                }
             }
         }
     }

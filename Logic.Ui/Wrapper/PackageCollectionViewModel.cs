@@ -14,25 +14,10 @@ namespace De.HsFlensburg.ClientApp112.Logic.Ui.Wrapper
         : ViewModelSyncCollection<PackageViewModel, Package, PackageCollection>,
           INotifyPropertyChanged
     {
-        public PackageCollectionViewModel() : base()
-        {
-            // Basiskonstruktor legt eine neue leere 
-            // PackageCollection (Model) an und synchronisiert.
-        }
+        public PackageCollectionViewModel() : base() { }
 
-        public PackageCollectionViewModel(PackageCollection modelCollection)
-            : base(modelCollection)
-        {
-            // Falls wir eine vorhandene PackageCollection übergeben
-            // wollen, z.B. beim Laden aus Datei.
-        }
+        public PackageCollectionViewModel(PackageCollection modelCollection) : base(modelCollection) { }
 
-        public override void NewModelAssigned()
-        {
-            // Wird gerufen, wenn das Model (PackageCollection) 
-            // komplett neu gesetzt wird. 
-            // Hier könntest du z.B. was initialisieren oder 
-            // sortieren. Standard: Nichts tun.
-        }
+        public override void NewModelAssigned() { }
     }
 }

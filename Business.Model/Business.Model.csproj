@@ -44,6 +44,7 @@
     <Compile Include="BusinessObjects\InstallOptions.cs" />
     <Compile Include="BusinessObjects\Package.cs" />
     <Compile Include="BusinessObjects\PackageCollection.cs" />
+    <Compile Include="BusinessObjects\PackageValidationState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

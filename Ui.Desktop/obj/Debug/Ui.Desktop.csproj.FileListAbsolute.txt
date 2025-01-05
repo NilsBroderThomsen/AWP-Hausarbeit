@@ -110,3 +110,7 @@ C:\Users\nilsb\Desktop\AWP-Hausarbeit\Ui.Desktop\obj\Debug\NewPackageWindow.baml
 C:\Users\nilsb\Desktop\AWP-Hausarbeit\Ui.Desktop\obj\Debug\De.HsFlensburg.ClientApp112.Ui.Desktop.Properties.Resources.resources
 C:\Users\nilsb\Desktop\AWP-Hausarbeit\Ui.Desktop\obj\Debug\EditPackageWindow.baml
 C:\Users\nilsb\Desktop\AWP-Hausarbeit\Ui.Desktop\obj\Debug\EditPackageWindow.g.cs
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Ui.Desktop\bin\Debug\Services.SerializationService.dll
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Ui.Desktop\bin\Debug\Services.SerializationService.pdb
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Ui.Desktop\bin\Debug\Services.ValidationService.dll
+C:\Users\nilsb\Desktop\AWP-Hausarbeit\Ui.Desktop\bin\Debug\Services.ValidationService.pdb

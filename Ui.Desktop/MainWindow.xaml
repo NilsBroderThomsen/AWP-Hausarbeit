@@ -20,12 +20,12 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <!-- 1) DataGrid oben -->
         <DataGrid Grid.Row="0" 
                   ItemsSource="{Binding Packages}"
                   SelectedItem="{Binding SelectedPackage}"
                   AutoGenerateColumns="False">
             <DataGrid.Columns>
+                <DataGridTextColumn Header="Validierung" Binding="{Binding ValidationStateText}" />
                 <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
                 <DataGridTextColumn Header="Package ID" Binding="{Binding PackageId}" />
                 <DataGridTextColumn Header="Category" Binding="{Binding Category}" />
@@ -37,7 +37,6 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <!-- 2) Buttons unten -->
         <StackPanel Grid.Row="1" 
                     Orientation="Horizontal" 
                     HorizontalAlignment="Center"
@@ -54,11 +53,11 @@
                     Padding="5,0,5,0"/>
 
             <Button Content="Validate" 
-                    Command="{Binding ValidateScriptCommand}"
+                    Command="{Binding ValidateCommand}"
                     Margin="5,0,5,0" 
                     Padding="5,0,5,0"/>
 
-            <Button Content="Import Script" 
+            <Button Content="Import XML" 
                     Command="{Binding ImportScriptCommand}"
                     Margin="5,0,5,0" 
                     Padding="5,0,5,0"/>
