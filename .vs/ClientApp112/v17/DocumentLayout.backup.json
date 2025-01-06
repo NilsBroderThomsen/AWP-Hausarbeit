@@ -3,15 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3188BC8C-FB99-4AB9-AFD3-D627049DDE22}|Logic.Ui\\Logic.Ui.csproj|c:\\users\\nilsb\\desktop\\awp-hausarbeit\\logic.ui\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3188BC8C-FB99-4AB9-AFD3-D627049DDE22}|Logic.Ui\\Logic.Ui.csproj|solutionrelative:logic.ui\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{798DB4D8-39E2-4A4E-892F-898E0C2AB5AC}|Ui.Desktop\\Ui.Desktop.csproj|c:\\users\\nilsb\\desktop\\awp-hausarbeit\\ui.desktop\\messagebuslogic\\messagelistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{798DB4D8-39E2-4A4E-892F-898E0C2AB5AC}|Ui.Desktop\\Ui.Desktop.csproj|solutionrelative:ui.desktop\\messagebuslogic\\messagelistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C1E370D-3353-498F-967A-359ABE2E6AFA}|Services.SerializationService\\Services.SerializationService.csproj|c:\\users\\nilsb\\desktop\\awp-hausarbeit\\services.serializationservice\\pathhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C1E370D-3353-498F-967A-359ABE2E6AFA}|Services.SerializationService\\Services.SerializationService.csproj|solutionrelative:services.serializationservice\\pathhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C1E370D-3353-498F-967A-359ABE2E6AFA}|Services.SerializationService\\Services.SerializationService.csproj|c:\\users\\nilsb\\desktop\\awp-hausarbeit\\services.serializationservice\\scriptexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C1E370D-3353-498F-967A-359ABE2E6AFA}|Services.SerializationService\\Services.SerializationService.csproj|C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\services.serializationservice\\scriptexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C1E370D-3353-498F-967A-359ABE2E6AFA}|Services.SerializationService\\Services.SerializationService.csproj|solutionrelative:services.serializationservice\\scriptexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,50 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PathHelper.cs",
-              "DocumentMoniker": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\Services.SerializationService\\PathHelper.cs",
-              "RelativeDocumentMoniker": "Services.SerializationService\\PathHelper.cs",
-              "ToolTip": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\Services.SerializationService\\PathHelper.cs",
-              "RelativeToolTip": "Services.SerializationService\\PathHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MessageListener.cs",
+              "DocumentMoniker": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\Ui.Desktop\\MessageBusLogic\\MessageListener.cs",
+              "RelativeDocumentMoniker": "Ui.Desktop\\MessageBusLogic\\MessageListener.cs",
+              "ToolTip": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\Ui.Desktop\\MessageBusLogic\\MessageListener.cs",
+              "RelativeToolTip": "Ui.Desktop\\MessageBusLogic\\MessageListener.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T15:47:54.417Z",
+              "WhenOpened": "2025-01-05T17:04:29.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ScriptExportService.cs",
               "DocumentMoniker": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\Services.SerializationService\\ScriptExportService.cs",
               "RelativeDocumentMoniker": "Services.SerializationService\\ScriptExportService.cs",
               "ToolTip": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\Services.SerializationService\\ScriptExportService.cs",
               "RelativeToolTip": "Services.SerializationService\\ScriptExportService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAUwFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T15:47:17.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\Logic.Ui\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "Logic.Ui\\ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "C:\\Users\\nilsb\\Desktop\\AWP-Hausarbeit\\Logic.Ui\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeToolTip": "Logic.Ui\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAwwG0AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T15:29:19.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "WhenOpened": "2025-01-05T15:47:17.152Z"
             }
           ]
         }
